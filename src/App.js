@@ -8,6 +8,7 @@ function App() {
 function alertt() {
   const name = prompt("What is your name?", "");
 alert(name)
+
 }
 // useEffect(() => {
 //   const name = prompt("What is your name?", "");
@@ -18,6 +19,9 @@ alert(name)
   return (
 <div>
  {alertt()}
+<h1>
+hi from dev branch
+</h1>
 </div>
 
    
